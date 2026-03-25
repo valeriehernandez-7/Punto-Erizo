@@ -1,4 +1,4 @@
-# 📍 Punto Erizo: Cartografía Urbana y Datos Abiertos en Alajuela
+# 📍 Punto Erizo: Nuestra historia, nuestro mapa, nuestra Alajuela
 
 **Punto Erizo** es una iniciativa de mapeo colaborativo nacida en el curso de **Sistemas de Información Geográfica (SIG)** del Instituto Tecnológico de Costa Rica. Más allá de un ejercicio académico, este proyecto representa un acto de **ciudadanía digital**: buscamos "iluminar" la infraestructura pública de Alajuela en el mapa global de **OpenStreetMap (OSM)**, transformando la observación de campo en datos abiertos y reutilizables para la planificación urbana, la accesibilidad y el sentido de pertenencia de la comunidad. El nombre rinde homenaje a la figura histórica de Juan Santamaría ("El Erizo"), simbolizando un mapa vivo que, al igual que nuestra identidad provincial, se construye con determinación y puntos de contacto precisos.
 
