@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layouts>
+  <layout name="root">
+    <row>
+      <button type="voicerec" icon="parques_icons/voz.png"/>
+      <button type="picture" icon="parques_icons/camara.png"/>
+      <button type="textnote" icon="parques_icons/texto.png"/>
+    </row>
+    <row>
+      <button type="tag" label="Árbol" icon="parques_icons/arbol.png"/>
+      <button type="tag" label="Banca" icon="parques_icons/banca.png"/>
+      <button type="tag" label="Basurero" icon="parques_icons/basurero.png"/>
+    </row>
+    <row>
+      <button type="tag" label="Iluminación" icon="parques_icons/iluminacion.png"/>
+      <button type="tag" label="Mural" icon="parques_icons/mural.png"/>
+      <button type="tag" label="Señal" icon="parques_icons/senal.png"/>
+    </row>
+    <row>
+      <button type="tag" label="Arte" icon="parques_icons/arte.png"/>
+      <button type="tag" label="Parque Biosaludable" icon="parques_icons/parque_biosaludable.png"/>
+      <button type="tag" label="Parque Infatil" icon="parques_icons/parque_infantil.png"/>
+    </row>
+    <row>
+      <button type="tag" label="Camino" icon="parques_icons/camino.png"/>
+    </row>
+  </layout>
+</layouts>
