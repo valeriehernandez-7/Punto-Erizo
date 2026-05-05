@@ -1,0 +1,2051 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-05-04T19:09:15Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1507031572",
+        "name": "Plaza/Planché Juan Santamaría",
+        "place": "square",
+        "surface": "concrete"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.2134559,
+              10.0148546
+            ],
+            [
+              -84.2136352,
+              10.0148182
+            ],
+            [
+              -84.2136701,
+              10.0147433
+            ],
+            [
+              -84.2136526,
+              10.0146295
+            ],
+            [
+              -84.2136269,
+              10.0145577
+            ],
+            [
+              -84.2135422,
+              10.0145178
+            ],
+            [
+              -84.2134375,
+              10.014536
+            ],
+            [
+              -84.2133877,
+              10.0145598
+            ],
+            [
+              -84.2133378,
+              10.0145481
+            ],
+            [
+              -84.2133784,
+              10.014718
+            ],
+            [
+              -84.2134138,
+              10.0148369
+            ],
+            [
+              -84.2134559,
+              10.0148546
+            ]
+          ]
+        ]
+      },
+      "id": "way/1507031572"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/714618022",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.2137344,
+            10.0145156
+          ],
+          [
+            -84.2136743,
+            10.014474
+          ],
+          [
+            -84.2136503,
+            10.0144572
+          ],
+          [
+            -84.2136449,
+            10.0144534
+          ],
+          [
+            -84.213599,
+            10.014438
+          ],
+          [
+            -84.2135468,
+            10.0144271
+          ],
+          [
+            -84.2134488,
+            10.0144146
+          ]
+        ]
+      },
+      "id": "way/714618022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1507027753",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.2133191,
+            10.0145242
+          ],
+          [
+            -84.213332,
+            10.0145401
+          ],
+          [
+            -84.2134029,
+            10.0145524
+          ],
+          [
+            -84.2134227,
+            10.0145309
+          ],
+          [
+            -84.2134495,
+            10.0145176
+          ],
+          [
+            -84.2134819,
+            10.0145123
+          ],
+          [
+            -84.2135309,
+            10.0145004
+          ],
+          [
+            -84.2135681,
+            10.0144813
+          ],
+          [
+            -84.213599,
+            10.0144697
+          ],
+          [
+            -84.2136259,
+            10.0144589
+          ],
+          [
+            -84.2136503,
+            10.0144572
+          ]
+        ]
+      },
+      "id": "way/1507027753"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6437610701",
+        "amenity": "waste_basket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.213807,
+          10.0143485
+        ]
+      },
+      "id": "node/6437610701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6492368943",
+        "amenity": "waste_basket",
+        "colour": "black",
+        "material": "metal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2140092,
+          10.0144046
+        ]
+      },
+      "id": "node/6492368943"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8639158691",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2133985,
+          10.0151215
+        ]
+      },
+      "id": "node/8639158691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8639158696",
+        "circumference": "1",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2138148,
+          10.0149148
+        ]
+      },
+      "id": "node/8639158696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8639158699",
+        "circumference": "1",
+        "height": "5",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2136267,
+          10.0144353
+        ]
+      },
+      "id": "node/8639158699"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11177777234",
+        "highway": "street_lamp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2145258,
+          10.0142617
+        ]
+      },
+      "id": "node/11177777234"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11177777235",
+        "highway": "street_lamp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2144997,
+          10.0141796
+        ]
+      },
+      "id": "node/11177777235"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11177795247",
+        "highway": "street_lamp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2138141,
+          10.0144485
+        ]
+      },
+      "id": "node/11177795247"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11177795248",
+        "highway": "street_lamp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2138332,
+          10.014515
+        ]
+      },
+      "id": "node/11177795248"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13781807292",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2132359,
+          10.015078
+        ]
+      },
+      "id": "node/13781807292"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13781807293",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.213167,
+          10.0151797
+        ]
+      },
+      "id": "node/13781807293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13781807294",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2132254,
+          10.0151909
+        ]
+      },
+      "id": "node/13781807294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13781807295",
+        "highway": "street_lamp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2135966,
+          10.0145253
+        ]
+      },
+      "id": "node/13781807295"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13781807296",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2134129,
+          10.0144832
+        ]
+      },
+      "id": "node/13781807296"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13781807297",
+        "highway": "street_lamp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2135119,
+          10.014517
+        ]
+      },
+      "id": "node/13781807297"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13781807298",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2133926,
+          10.014689
+        ]
+      },
+      "id": "node/13781807298"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13781807299",
+        "amenity": "bench"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2133817,
+          10.0144907
+        ]
+      },
+      "id": "node/13781807299"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13781807300",
+        "highway": "street_lamp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2136752,
+          10.0145429
+        ]
+      },
+      "id": "node/13781807300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13781891201",
+        "amenity": "bench"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.213697,
+          10.0145931
+        ]
+      },
+      "id": "node/13781891201"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13781891202",
+        "amenity": "bench"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2137598,
+          10.0147753
+        ]
+      },
+      "id": "node/13781891202"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13781891203",
+        "amenity": "waste_basket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2137685,
+          10.0147851
+        ]
+      },
+      "id": "node/13781891203"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13781891204",
+        "amenity": "bench"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2137607,
+          10.0149532
+        ]
+      },
+      "id": "node/13781891204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13781891205",
+        "amenity": "bench"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2135917,
+          10.0150532
+        ]
+      },
+      "id": "node/13781891205"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13781891206",
+        "amenity": "bench"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2135259,
+          10.0151446
+        ]
+      },
+      "id": "node/13781891206"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13781891207",
+        "amenity": "bench"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2131095,
+          10.0150536
+        ]
+      },
+      "id": "node/13781891207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13781891208",
+        "amenity": "bench"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2131425,
+          10.0151074
+        ]
+      },
+      "id": "node/13781891208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13781891209",
+        "amenity": "bench"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2131752,
+          10.0152385
+        ]
+      },
+      "id": "node/13781891209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13781891210",
+        "amenity": "bench"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2132882,
+          10.015195
+        ]
+      },
+      "id": "node/13781891210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13781891211",
+        "amenity": "bench"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2132199,
+          10.0151567
+        ]
+      },
+      "id": "node/13781891211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13781891212",
+        "amenity": "bench"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2132666,
+          10.0151067
+        ]
+      },
+      "id": "node/13781891212"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13781891213",
+        "amenity": "waste_basket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2132848,
+          10.0151328
+        ]
+      },
+      "id": "node/13781891213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13781891214",
+        "amenity": "bench"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.213323,
+          10.0151352
+        ]
+      },
+      "id": "node/13781891214"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13781891215",
+        "highway": "street_lamp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2133348,
+          10.0151653
+        ]
+      },
+      "id": "node/13781891215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13781891216",
+        "amenity": "waste_basket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2134383,
+          10.0151914
+        ]
+      },
+      "id": "node/13781891216"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13781891217",
+        "artwork_type": "mural",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2132384,
+          10.0149135
+        ]
+      },
+      "id": "node/13781891217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13787383445",
+        "genus": "Tabebuia",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2142701,
+          10.0146401
+        ]
+      },
+      "id": "node/13787383445"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13787383446",
+        "genus": "Samanea",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.214034,
+          10.014564
+        ]
+      },
+      "id": "node/13787383446"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13787383447",
+        "genus": "Phoenix",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2139038,
+          10.0146328
+        ]
+      },
+      "id": "node/13787383447"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13787383448",
+        "genus": "Tabebuia",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2139197,
+          10.0143589
+        ]
+      },
+      "id": "node/13787383448"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13787383449",
+        "genus": "Tabebuia",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2141952,
+          10.0143136
+        ]
+      },
+      "id": "node/13787383449"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13787383450",
+        "genus": "Tabebuia",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2141934,
+          10.0143604
+        ]
+      },
+      "id": "node/13787383450"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13787383451",
+        "genus": "Tabebuia",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2141316,
+          10.0143443
+        ]
+      },
+      "id": "node/13787383451"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13787383452",
+        "genus": "Samanea",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2142831,
+          10.0142422
+        ]
+      },
+      "id": "node/13787383452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13787383453",
+        "genus": "Samanea",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2143109,
+          10.0142866
+        ]
+      },
+      "id": "node/13787383453"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13787383455",
+        "genus": "Phoenix",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2145151,
+          10.0142467
+        ]
+      },
+      "id": "node/13787383455"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13787383456",
+        "genus": "Tabebuia",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2145278,
+          10.0142866
+        ]
+      },
+      "id": "node/13787383456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13787383457",
+        "circumference": "0.31",
+        "genus": "Samanea",
+        "height": "11",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2145483,
+          10.0143452
+        ]
+      },
+      "id": "node/13787383457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13787383458",
+        "circumference": "0.31",
+        "genus": "Samanea",
+        "height": "11",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2142817,
+          10.0145979
+        ]
+      },
+      "id": "node/13787383458"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13787383463",
+        "amenity": "bench",
+        "material": "concrete"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2143329,
+          10.0145566
+        ]
+      },
+      "id": "node/13787383463"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13787383466",
+        "amenity": "bench",
+        "material": "concrete"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2140575,
+          10.0145215
+        ]
+      },
+      "id": "node/13787383466"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13787383470",
+        "amenity": "bench",
+        "material": "concrete"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2141991,
+          10.0145741
+        ]
+      },
+      "id": "node/13787383470"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13787383474",
+        "amenity": "bench",
+        "material": "concrete"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2138009,
+          10.0143634
+        ]
+      },
+      "id": "node/13787383474"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13787383475",
+        "amenity": "bench",
+        "material": "concrete"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2139819,
+          10.0143624
+        ]
+      },
+      "id": "node/13787383475"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13787383476",
+        "amenity": "bench",
+        "material": "concrete"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2141595,
+          10.0143
+        ]
+      },
+      "id": "node/13787383476"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13787383477",
+        "amenity": "bench",
+        "material": "concrete"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2142073,
+          10.0142871
+        ]
+      },
+      "id": "node/13787383477"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13787383479",
+        "amenity": "bench",
+        "material": "concrete"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2144882,
+          10.014185
+        ]
+      },
+      "id": "node/13787383479"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13787383480",
+        "amenity": "bench",
+        "material": "concrete"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2144796,
+          10.0142871
+        ]
+      },
+      "id": "node/13787383480"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13787383482",
+        "amenity": "bench",
+        "material": "concrete"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2145655,
+          10.0144
+        ]
+      },
+      "id": "node/13787383482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13787383483",
+        "amenity": "bench",
+        "armrest": "no",
+        "backrest": "no",
+        "material": "concrete"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2145162,
+          10.0144944
+        ]
+      },
+      "id": "node/13787383483"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13787383484",
+        "amenity": "bench",
+        "material": "concrete"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2143341,
+          10.0144203
+        ]
+      },
+      "id": "node/13787383484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13787383486",
+        "amenity": "bench",
+        "material": "concrete"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2141255,
+          10.014512
+        ]
+      },
+      "id": "node/13787383486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13787383487",
+        "amenity": "bench",
+        "material": "concrete"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2141549,
+          10.0144948
+        ]
+      },
+      "id": "node/13787383487"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13787383491",
+        "historic": "memorial",
+        "name": "Ronald Rodríguez Vargas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2140515,
+          10.0144596
+        ]
+      },
+      "id": "node/13787383491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13787383495",
+        "amenity": "waste_basket",
+        "colour": "black",
+        "material": "metal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2140468,
+          10.0142792
+        ]
+      },
+      "id": "node/13787383495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13787383496",
+        "amenity": "waste_basket",
+        "colour": "black",
+        "material": "metal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2142957,
+          10.0143167
+        ]
+      },
+      "id": "node/13787383496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13787383497",
+        "amenity": "waste_basket",
+        "colour": "black",
+        "material": "metal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2145019,
+          10.0141654
+        ]
+      },
+      "id": "node/13787383497"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13788710945",
+        "highway": "street_lamp",
+        "lamp_type": "led"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2144559,
+          10.0145104
+        ]
+      },
+      "id": "node/13788710945"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13788710946",
+        "highway": "street_lamp",
+        "lamp_type": "led"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2145524,
+          10.0144226
+        ]
+      },
+      "id": "node/13788710946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13788710948",
+        "highway": "street_lamp",
+        "lamp_type": "led"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2143963,
+          10.01426
+        ]
+      },
+      "id": "node/13788710948"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13788710949",
+        "highway": "street_lamp",
+        "lamp_type": "led"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2143857,
+          10.0141855
+        ]
+      },
+      "id": "node/13788710949"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13788710950",
+        "highway": "street_lamp",
+        "lamp_type": "led"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2143158,
+          10.0142075
+        ]
+      },
+      "id": "node/13788710950"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13788710951",
+        "highway": "street_lamp",
+        "lamp_type": "led"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.214246,
+          10.0143405
+        ]
+      },
+      "id": "node/13788710951"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13788710952",
+        "highway": "street_lamp",
+        "lamp_type": "led"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2140938,
+          10.0142676
+        ]
+      },
+      "id": "node/13788710952"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13788710953",
+        "highway": "street_lamp",
+        "lamp_type": "led"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2139888,
+          10.0142979
+        ]
+      },
+      "id": "node/13788710953"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13788710954",
+        "highway": "street_lamp",
+        "lamp_type": "led"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2139302,
+          10.0143158
+        ]
+      },
+      "id": "node/13788710954"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13788710955",
+        "highway": "street_lamp",
+        "lamp_type": "led"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2138501,
+          10.0143389
+        ]
+      },
+      "id": "node/13788710955"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13788710958",
+        "highway": "street_lamp",
+        "lamp_type": "led"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2138496,
+          10.0145756
+        ]
+      },
+      "id": "node/13788710958"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13788710959",
+        "highway": "street_lamp",
+        "lamp_type": "led"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2138986,
+          10.0145322
+        ]
+      },
+      "id": "node/13788710959"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13788710960",
+        "highway": "street_lamp",
+        "lamp_type": "led"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2139494,
+          10.01459
+        ]
+      },
+      "id": "node/13788710960"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13788710963",
+        "amenity": "waste_basket",
+        "colour": "black",
+        "material": "metal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2140421,
+          10.014405
+        ]
+      },
+      "id": "node/13788710963"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13788710966",
+        "highway": "street_lamp",
+        "lamp_type": "led"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2140304,
+          10.0146018
+        ]
+      },
+      "id": "node/13788710966"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13788710969",
+        "highway": "street_lamp",
+        "lamp_type": "led"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2140907,
+          10.0146002
+        ]
+      },
+      "id": "node/13788710969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13788710975",
+        "blind": "no",
+        "fitness_station": "yes",
+        "leisure": "fitness_station",
+        "opening_hours": "24/7",
+        "sport": "fitness",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.214487,
+          10.014457
+        ]
+      },
+      "id": "node/13788710975"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13788721798",
+        "access": "yes",
+        "fenced": "yes",
+        "leisure": "playground",
+        "max_age": "15",
+        "min_age": "3",
+        "name": "Juegos de niños",
+        "opening_hours": "24/7",
+        "surface": "unpaved"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2142571,
+          10.0144354
+        ]
+      },
+      "id": "node/13788721798"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13790721383",
+        "circumference": "0.96",
+        "height": "4",
+        "natural": "tree",
+        "species": "Delonix regia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2145477,
+          10.0144825
+        ]
+      },
+      "id": "node/13790721383"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13790721384",
+        "amenity": "bench"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.214227,
+          10.0145649
+        ]
+      },
+      "id": "node/13790721384"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13790721385",
+        "circumference": "0.31",
+        "genus": "Samanea",
+        "height": "11",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2144812,
+          10.0145031
+        ]
+      },
+      "id": "node/13790721385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13790721386",
+        "highway": "street_lamp",
+        "lamp_type": "led"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2145237,
+          10.0144618
+        ]
+      },
+      "id": "node/13790721386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13790721387",
+        "highway": "street_lamp",
+        "lamp_type": "led"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2143859,
+          10.0145154
+        ]
+      },
+      "id": "node/13790721387"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13790721388",
+        "genus": "Phoenix",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2144919,
+          10.0141953
+        ]
+      },
+      "id": "node/13790721388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13790721389",
+        "genus": "Phoenix",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2144615,
+          10.0141695
+        ]
+      },
+      "id": "node/13790721389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13790721390",
+        "circumference": "0.96",
+        "height": "4",
+        "natural": "tree",
+        "species": "Delonix regia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2144265,
+          10.0141833
+        ]
+      },
+      "id": "node/13790721390"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13790721391",
+        "amenity": "bench",
+        "material": "concrete"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2144761,
+          10.0141965
+        ]
+      },
+      "id": "node/13790721391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13790721392",
+        "amenity": "bench",
+        "material": "concrete"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2143635,
+          10.0142626
+        ]
+      },
+      "id": "node/13790721392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13790721393",
+        "highway": "street_lamp",
+        "lamp_type": "led"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2142123,
+          10.0142436
+        ]
+      },
+      "id": "node/13790721393"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13790721394",
+        "highway": "street_lamp",
+        "lamp_type": "led"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2140673,
+          10.014385
+        ]
+      },
+      "id": "node/13790721394"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13790721395",
+        "historic": "memorial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2140646,
+          10.0143027
+        ]
+      },
+      "id": "node/13790721395"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13790721396",
+        "historic": "memorial",
+        "name": "Alajuela"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.213924,
+          10.0145567
+        ]
+      },
+      "id": "node/13790721396"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13790721397",
+        "highway": "street_lamp",
+        "lamp_type": "led"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2139695,
+          10.0143883
+        ]
+      },
+      "id": "node/13790721397"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13790721398",
+        "highway": "street_lamp",
+        "lamp_type": "led"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2139695,
+          10.0145253
+        ]
+      },
+      "id": "node/13790721398"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13790721399",
+        "highway": "street_lamp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.213894,
+          10.0144604
+        ]
+      },
+      "id": "node/13790721399"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13790721400",
+        "genus": "Tabebuia",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2138717,
+          10.0144505
+        ]
+      },
+      "id": "node/13790721400"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13790792001",
+        "highway": "street_lamp",
+        "lamp_type": "led"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2139949,
+          10.0144786
+        ]
+      },
+      "id": "node/13790792001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13790792002",
+        "amenity": "waste_basket",
+        "colour": "black",
+        "material": "metal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.214135,
+          10.0145892
+        ]
+      },
+      "id": "node/13790792002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13790792003",
+        "highway": "street_lamp",
+        "lamp_type": "led"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2141736,
+          10.0145831
+        ]
+      },
+      "id": "node/13790792003"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13790792004",
+        "highway": "street_lamp",
+        "lamp_type": "led"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2139741,
+          10.0146332
+        ]
+      },
+      "id": "node/13790792004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13790792005",
+        "highway": "street_lamp",
+        "lamp_type": "led"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2139163,
+          10.0146514
+        ]
+      },
+      "id": "node/13790792005"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13790792006",
+        "genus": "Phoenix",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2139764,
+          10.0144944
+        ]
+      },
+      "id": "node/13790792006"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13790792007",
+        "highway": "street_lamp",
+        "lamp_type": "led"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2140157,
+          10.0145323
+        ]
+      },
+      "id": "node/13790792007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13790792008",
+        "amenity": "bench",
+        "material": "concrete"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2142852,
+          10.0146431
+        ]
+      },
+      "id": "node/13790792008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13790792009",
+        "description": "Calle 2, Avenida 4",
+        "traffic_sign": "variable_message"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2137841,
+          10.0143519
+        ]
+      },
+      "id": "node/13790792009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13790792010",
+        "advertising": "sign",
+        "lit": "no",
+        "location": "pole",
+        "message": "alajuela,_bici-amigable",
+        "support": "pole",
+        "visibility": "street"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2137895,
+          10.0143754
+        ]
+      },
+      "id": "node/13790792010"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13790792011",
+        "advertising": "sign",
+        "lit": "no",
+        "location": "outdoor",
+        "message": "claro,_liberty",
+        "support": "wall_mounted",
+        "visibility": "street"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2138681,
+          10.0146849
+        ]
+      },
+      "id": "node/13790792011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13790792012",
+        "description": "Prohibido fumar",
+        "traffic_sign": "variable_message"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2139105,
+          10.0144088
+        ]
+      },
+      "id": "node/13790792012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13790792013",
+        "amenity": "bench",
+        "material": "concrete"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.213939,
+          10.0144081
+        ]
+      },
+      "id": "node/13790792013"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13790792014",
+        "description": "Monumentos varios",
+        "historic": "memorial",
+        "material": "concrete"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2138727,
+          10.0143701
+        ]
+      },
+      "id": "node/13790792014"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13790792015",
+        "advertising": "sign",
+        "lit": "no",
+        "location": "outdoor",
+        "message": "opticas_vision",
+        "support": "wall_mounted",
+        "visibility": "street"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2145991,
+          10.0144733
+        ]
+      },
+      "id": "node/13790792015"
+    }
+  ]
+}
