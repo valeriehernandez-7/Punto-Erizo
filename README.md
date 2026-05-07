@@ -32,6 +32,102 @@ Hemos estandarizado la captura de 10 elementos clave, asegurando la representaci
 ## 🗂️ Estructura del Repositorio
 Este repositorio organiza los productos técnicos generados durante las tres semanas de ejecución:
 
+* **`/geojson`**: Archivos GeoJSON resultantes de las consultas en OverPass Turbo. Contienen los datos extraídos del área de estudio para su análisis y visualización en sistemas SIG.
+    * `parks.geojson`: Elementos mapeados por los integrantes del grupo (`quintsx`, `Ari Jiménez`) dentro de los polígonos del Parque Juan Santamaría y el Parque Calián Vargas.
+    * `alajuela.geojson`: Todos los puntos de interés relevantes para el proyecto, extraídos para toda la ciudad de Alajuela.
 * **`/layouts`**: Contiene la interfaz de botones bilingüe (`en.xml`, `es.xml`) para **OSMTracker**. Incluye iconos personalizados diseñados para una captura eficiente y sistemática en dispositivos móviles.
 * **`/fieldpapers`**: Mapas analógicos utilizados para la validación espacial y anotaciones manuscritas, fundamentales para el registro de geometrías complejas.
 * **`/tracks`**: Registros crudos en formato **GPX**, multimedia y notas de campo que respaldan la veracidad de los datos recolectados.
+
+## 🛰️ [Consultas OverPass Turbo](https://overpass-turbo.eu/)
+Utilizamos OverPass Turbo para validar y extraer los datos geoespaciales. A continuación se presentan las consultas QL utilizadas:
+
+### 1. Extracción de elementos por usuario en los Parques : [parks.geojson](https://github.com/valeriehernandez-7/Punto-Erizo/blob/master/geojson/parks.geojson)
+Esta consulta extrae todos los elementos (nodos, vías y relaciones) creados o modificados por los miembros del grupo dentro de las áreas de los dos parques de interés.
+
+```overpass-ql
+[out:json][timeout:25];
+// Define the search area as Parque Juan Santamaría using geocoding
+{{geocodeArea:Parque Juan Santamaría}}->.searchAreaJuanSantamaria;
+
+// Define the search area as Parque Calián Vargas using geocoding
+{{geocodeArea:Parque Calián Vargas}}->.searchAreaCalianVargas;
+
+// Find all elements (nodes, ways, relations) created or edited by the specified users within the search area
+(
+  node(user:"quintsx", "Ari Jiménez")(area.searchAreaJuanSantamaria);
+  way(user:"quintsx", "Ari Jiménez")(area.searchAreaJuanSantamaria);
+  relation(user:"quintsx", "Ari Jiménez")(area.searchAreaJuanSantamaria);
+
+  node(user:"quintsx", "Ari Jiménez")(area.searchAreaCalianVargas);
+  way(user:"quintsx", "Ari Jiménez")(area.searchAreaCalianVargas);
+  relation(user:"quintsx", "Ari Jiménez")(area.searchAreaCalianVargas);
+);
+
+// Output the results with full geometry and tags
+out body;
+// Output child elements (nodes of ways) for complete geometry
+>;
+// Output skeleton (IDs and metadata) for relations
+out skel qt;
+```
+
+### 2. Extracción de POIs en toda la ciudad de Alajuela : [alajuela.geojson](https://github.com/valeriehernandez-7/Punto-Erizo/blob/master/geojson/alajuela.geojson)
+Esta consulta extrae todos los elementos de interés (árboles, bancas, basureros, arte, parques infantiles, etc.) presentes en la zona urbana de Alajuela, Costa Rica.
+
+```overpass-ql
+[out:json][timeout:25];
+// Define the search area as Alajuela, Costa Rica using geocoding
+{{geocodeArea:Alajuela, Costa Rica}}->.searchArea;
+
+// Find all elements (nodes, ways, relations) created or edited by the specified users within Alajuela
+(
+  node["natural"="tree"](area.searchArea);
+  way["natural"="tree"](area.searchArea);
+  relation["natural"="tree"](area.searchArea);
+
+  node["amenity"="bench"](area.searchArea);
+  way["amenity"="bench"](area.searchArea);
+  relation["amenity"="bench"](area.searchArea);
+
+  node["amenity"="waste_basket"](area.searchArea);
+  way["amenity"="waste_basket"](area.searchArea);
+  relation["amenity"="waste_basket"](area.searchArea);
+
+  node["highway"="footway"](area.searchArea);
+  way["highway"="footway"](area.searchArea);
+  relation["highway"="footway"](area.searchArea);
+
+  node["tourism"="artwork"](area.searchArea);
+  way["tourism"="artwork"](area.searchArea);
+  relation["tourism"="artwork"](area.searchArea);
+
+  node["leisure"="playground"](area.searchArea);
+  way["leisure"="playground"](area.searchArea);
+  relation["leisure"="playground"](area.searchArea);  
+
+  node["leisure"="fitness_station"](area.searchArea);
+  way["leisure"="fitness_station"](area.searchArea);
+  relation["leisure"="fitness_station"](area.searchArea);
+
+  node["artwork_type"="mural"](area.searchArea);
+  way["artwork_type"="mural"](area.searchArea);
+  relation["artwork_type"="mural"](area.searchArea); 
+
+  node["traffic_sign"="stop"](area.searchArea);
+  way["traffic_sign"="stop"](area.searchArea);
+  relation["traffic_sign"="stop"](area.searchArea);
+
+  node["highway"="street_lamp"](area.searchArea);
+  way["highway"="street_lamp"](area.searchArea);
+  relation["highway"="street_lamp"](area.searchArea);  
+);
+
+// Output the results with full geometry and tags
+out body;
+// Output child elements (nodes of ways) for complete geometry
+>;
+// Output skeleton (IDs and metadata) for relations
+out skel qt;
+ 
+```
