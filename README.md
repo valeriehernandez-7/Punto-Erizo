@@ -39,6 +39,29 @@ Este repositorio organiza los productos técnicos generados durante las tres sem
 * **`/fieldpapers`**: Mapas analógicos utilizados para la validación espacial y anotaciones manuscritas, fundamentales para el registro de geometrías complejas.
 * **`/tracks`**: Registros crudos en formato **GPX**, multimedia y notas de campo que respaldan la veracidad de los datos recolectados.
 
+## 📝 Edición del Mapa en OpenStreetMap
+
+Como parte del trabajo de campo, se procedió a la edición y agregado de los 10 elementos mapeados en los parques correspondientes. Las ediciones fueron realizadas utilizando el editor iD de OpenStreetMap, aplicando correctamente las etiquetas (tags) documentadas en la wiki de OSM.
+
+### ✍ Changesets
+
+#### 📍 Parque Calián Vargas [Ari Jiménez](https://www.openstreetmap.org/user/Ari%20Jim%C3%A9nez)
+
+| Changeset | Enlace de descarga |
+| :--- | :--- |
+| `182042317` | [🔗 Descargar XML](https://www.openstreetmap.org/api/0.6/changeset/182042317/download) |
+| `182169400` | [🔗 Descargar XML](https://www.openstreetmap.org/api/0.6/changeset/182169400/download) |
+
+#### 📍 Parque Juan Santamaría [quintsx](https://www.openstreetmap.org/user/quintsx)
+
+| Changeset | Enlace de descarga |
+| :--- | :--- |
+| `182043565` | [🔗 Descargar XML](https://www.openstreetmap.org/api/0.6/changeset/182043565/download) |
+| `182043870` | [🔗 Descargar XML](https://www.openstreetmap.org/api/0.6/changeset/182043870/download) |
+| `182044362` | [🔗 Descargar XML](https://www.openstreetmap.org/api/0.6/changeset/182044362/download) |
+
+> 💡 Los archivos descargados contienen el registro completo de las operaciones de edición realizadas sobre OSM, incluyendo nodos, vías, relaciones y las etiquetas asignadas a cada elemento.
+
 ## 🛰️ [Consultas OverPass Turbo](https://overpass-turbo.eu/)
 Utilizamos OverPass Turbo para validar y extraer los datos geoespaciales. A continuación se presentan las consultas QL utilizadas:
 
